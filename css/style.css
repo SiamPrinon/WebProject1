@@ -1,0 +1,61 @@
+body{
+    background-image: url(bg.avif);
+    background-size: cover;
+}
+#main_div{
+    background-color: transparent;
+    width: 550px;
+    height: 350px;
+    margin: 4% 0 0 12%;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.6);
+}
+#tab_login{
+    padding:20% 0 0 20%;
+}
+.login_text{
+    width: 200px; height: 35px; background-color: transparent;
+    border-radius: 7px;
+}
+#btn{
+    width: 100px;
+    height: 35px;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    margin: 0 0 0 100px;
+}
+.lbl1{
+    color: teal;
+    font-weight: bold;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
